@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">registro</string>
+    <string name="app_name">BetterLife</string>
     <!--registro-->
     <string name="CrearcuentaTXT">Crear cuenta</string>
     <string name="NombreET">Nombre</string>
@@ -8,5 +8,11 @@
     <string name="ContraseñaET">Contraseña</string>
     <string name="ConfirmContraseñaET">Confirmar contraseña</string>
     <string name="Crear">Crear cuenta</string>
-    <string name="SigninTXT">¿Ya tienes una cuenta? Sign in</string>
+    <string name="SigninTXT">¿Ya tienes una cuenta?</string>
+
+    <!--Inicio de sesión-->
+    <string name="Iniciar">Inicar sesión</string>
+    <string name="IniciarCuentaTXT">Iniciar Sesión</string>
+    <string name="SingupTXT">¿No tienes una cuenta?</string>
+    <string name="SingupTXT2">Registro</string>
 </resources>
