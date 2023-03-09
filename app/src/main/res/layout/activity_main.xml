@@ -24,7 +24,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_height="110dp"
             app:srcCompat="@drawable/ic_user"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"/>
@@ -34,27 +34,28 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp">
+
             <EditText
-                android:id="@+id/NombreET"
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#222232"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="10dp"
                 android:hint="@string/NombreET"
+
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:backgroundTint="#222232"
-                android:textColorHint="#cccccc"
-
-                android:drawableStart="@drawable/ic_person"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textColorHint="#cccccc" />
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="275dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp">
             <EditText
-                android:id="@+id/GeneroET"
+                android:id="@+id/usergender"
                 android:hint="@string/GeneroET"
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
@@ -68,11 +69,11 @@
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="275dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp">
             <EditText
-                android:id="@+id/EmailET"
+                android:id="@+id/useremail"
                 android:hint="@string/EmailET"
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
@@ -86,14 +87,14 @@
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="275dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             app:passwordToggleEnabled="true"
             app:passwordToggleTint="#cccccc"
             app:hintEnabled="false">
             <EditText
-                android:id="@+id/ContraseñaET"
+                android:id="@+id/password"
                 android:hint="@string/ContraseñaET"
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
@@ -106,14 +107,14 @@
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="275dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             app:passwordToggleEnabled="true"
             app:passwordToggleTint="#cccccc"
             app:hintEnabled="false">
             <EditText
-                android:id="@+id/ConfirmContraseñaET"
+                android:id="@+id/repassword"
                 android:hint="@string/ConfirmContraseñaET"
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
@@ -125,7 +126,7 @@
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
         <Button
-            android:id="@+id/Crear"
+            android:id="@+id/btnsingup"
             android:text="@string/Crear"
             android:textColor="@color/black"
             android:layout_marginTop="15dp"
@@ -136,7 +137,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_height="60dp"/>
         <TextView
-            android:id="@+id/SigninTXT"
+            android:id="@+id/Txtsignin"
             android:text="@string/SigninTXT"
             android:textSize="18sp"
             android:layout_gravity="center"
@@ -144,6 +145,17 @@
             android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnsingin"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#3BEDC2"
+            android:text="@string/Iniciar"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
