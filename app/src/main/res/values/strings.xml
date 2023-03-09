@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">registro</string>
+    <!--registro-->
+    <string name="CrearcuentaTXT">Crear cuenta</string>
+    <string name="NombreET">Nombre</string>
+    <string name="GeneroET">Genero</string>
+    <string name="EmailET">Email</string>
+    <string name="ContraseñaET">Contraseña</string>
+    <string name="ConfirmContraseñaET">Confirmar contraseña</string>
+    <string name="Crear">Crear cuenta</string>
+    <string name="SigninTXT">¿Ya tienes una cuenta? Sign in</string>
+</resources>
