@@ -1,5 +1,4 @@
 package com.example.registro;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +6,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class HomeApp extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Nosotros extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
