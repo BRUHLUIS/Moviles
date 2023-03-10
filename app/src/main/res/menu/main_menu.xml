@@ -22,5 +22,6 @@
         android:title="Contacto" />
     <item
         android:id="@+id/itemSalir"
-        android:title="Salir" />
+        android:title="Salir"
+        android:icon="@drawable/nav_exit"/>
 </menu>
