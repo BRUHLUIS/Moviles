@@ -12,7 +12,7 @@ public class Nosotros extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_app);
+        setContentView(R.layout.main_nosotros);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){

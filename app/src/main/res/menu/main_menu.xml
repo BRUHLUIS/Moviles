@@ -1,27 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/caminohuella">
-    <item
-        android:id="@+id/nav_home"
-        android:title="Inicio" />
-    <item
-        android:id="@+id/nav_mostrarperros"
-        android:title="Mostrar Perros" />
-    <item
-        android:id="@+id/nav_registroperros"
-        android:title="Registro Perros" />
-    <item
-        android:id="@+id/nav_nosotros"
-        android:title="Nosotros" />
-    <item
-        android:id="@+id/nav_contacto"
-        android:title="Contacto" />
-    <item
-        android:id="@+id/itemSalir"
-        android:title="Salir"
-        android:icon="@drawable/nav_exit"/>
+    android:background="@color/lavender">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Inicio"
+            android:textColor="@color/lavender" />
+
+        <item
+            android:id="@+id/nav_mostrarperros"
+            android:title="Mostrar Perros"
+            android:textColor="@color/lavender" />
+
+        <item
+            android:id="@+id/nav_registroperros"
+            android:title="Registro Perros"
+            android:textColor="@color/lavender" />
+
+        <item
+            android:id="@+id/nav_nosotros"
+            android:title="Nosotros"
+            android:textColor="@color/lavender" />
+
+        <item
+            android:id="@+id/nav_contacto"
+            android:title="Contacto"
+            android:textColor="@color/lavender" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/itemSalir"
+                android:title="Salir"
+                android:icon="@drawable/nav_exit"
+                android:textColor="@color/lavender" />
+        </menu>
+    </item>
+
+    <group>
+        <item
+            android:title=""
+            android:actionLayout="@layout/menu_divider" />
+    </group>
+
 </menu>

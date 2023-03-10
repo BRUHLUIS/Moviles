@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/letras"
+            android:text="¿Qué aprenderás en Better Life?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todo lo necesario y obligatorio para mejorar la calidad de vida de tu nuevo amigo, incluyendo sus necesidades, alimentos y tips."
+            android:textSize="18sp"
+            android:textColor="#FF000000"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adopme" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/letras"
+            android:text="Le das una oportunidad de vida"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/corazon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuando nacen, los canales auditivos y sus ojos están cerrados al mundo. Durante su primera semana dependen enteramente de sus madres. Durante la segunda semana comenzarán a abrir los ojos aunque su visión no será muy clara. En la tercera semana comenzarán a entender el mundo que los rodea y su sentido del olfato y audición mejorarán notoriamente."
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/letras"
+            android:text="Elegir perros de adopción"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="427dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hogar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A diferencia de lo que mucha gente cree, en los refugios puedes encontrar perros de todas las edades y de múltiples razas. Además, tienes la ventaja de obtener información detallada acerca de sus características y temperamento, conocer su historia, acogerlos temporalmente, e incluso ir a pasearlos previamente antes de formalizar la adopción."
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/letras"
+            android:text="¿Cuánto cuesta adoptar un perro?"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dinero" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los refugios manejan un donativo que es muy bajo en comparación con la compra. Éste varía de un refugio a otro. Los perros se entregan con su cartilla de vacunas al día, esterilizados y desparasitados. El donativo se justifica por los gastos veterinarios a cargo de la entidad, y es mayor en el caso de los cachorros debido al nivel de atención veterinaria que necesitan durante los primeros 6 meses de vida."
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

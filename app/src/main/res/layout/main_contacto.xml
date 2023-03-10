@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/letras"
+        android:text="CONTACTANOS EN CUALQUIERA DE LAS SIGUIENTES OPCIONES PARA MÁS INFORMACIÓN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/contacto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="36dp">
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/letras"
+            android:text="CONTACTANOS POR CORREO ELECTRONICO"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/email_address_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="betterlife@gmail.com"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/letras"
+            android:text="CONTACTANOS POR NÚMERO DE CELULAR"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/phone_number_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9613861685"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/phone_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/letras"
+            android:text="VISITANOS EN ESTA DIRECCIÓN"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/address_info_textview"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="294dp"
+        android:text="C4 120 MZA 7 LT10 FRACC RINCONADAS DE SAN FRANCISCO 42185 MINERAL DE LA REFORMA, HGO."
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>
